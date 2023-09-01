@@ -9,11 +9,11 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             1ª QUESTÃO               ")
+   escreval("             1Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
 
-   // Solicidando dados ao usuário.
+   // Solicidando dados ao usuÃ¡rio.
 
    escreva("Digite o valor (a): ")
    leia(a)
@@ -35,19 +35,19 @@ Inicio
    // Calculando o resultado.
 
    se soma > c entao
-      resultado <- "A soma de (a) + (b) é MAIOR que (c)."
+      resultado <- "A soma de (a) + (b) Ã© MAIOR que (c)."
    senao
       se soma < c entao
-         resultado <- "A soma de (a) + (b) é MENOR que (c)."
+         resultado <- "A soma de (a) + (b) Ã© MENOR que (c)."
       senao
-         resultado <- "A soma de (a) + (b) é IGUAL a (c)."
+         resultado <- "A soma de (a) + (b) Ã© IGUAL a (c)."
       fimse
    fimse
 
-   // Exibindo o resultado para o usuário.
+   // Exibindo o resultado para o usuÃ¡rio.
 
    escreval("======================================")
-   escreval("             1ª QUESTÃO               ")
+   escreval("             1Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
