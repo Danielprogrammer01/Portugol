@@ -1,8 +1,8 @@
 Algoritmo "semnome"
 
- //Faça um algoritmo que leia dois valores inteiros A e B se os valores forem iguais deverá se
-//somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se
-//atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
+ //FaÃ§a um algoritmo que leia dois valores inteiros A e B se os valores forem iguais deverÃ¡ se
+//somar os dois, caso contrÃ¡rio multiplique A por B. Ao final de qualquer um dos cÃ¡lculos deve-se
+//atribuir o resultado para uma variÃ¡vel C e mostrar seu conteÃºdo na tela.
 
 Var
 
@@ -11,11 +11,11 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             3ª QUESTÃO               ")
+   escreval("             3Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
 
-   // Solicidando dados ao usuário.
+   // Solicidando dados ao usuÃ¡rio.
 
    escreva("Digite o valor (a): ")
    leia(a)
@@ -37,19 +37,19 @@ Inicio
    // Calculando o resultado.
 
    se soma > c entao
-      resultado <- "A soma de (a) + (b) é MAIOR que (c)."
+      resultado <- "A soma de (a) + (b) Ã© MAIOR que (c)."
    senao
       se soma < c entao
-         resultado <- "A soma de (a) + (b) é MENOR que (c)."
+         resultado <- "A soma de (a) + (b) Ã© MENOR que (c)."
       senao
-         resultado <- "A soma de (a) + (b) é IGUAL a (c)."
+         resultado <- "A soma de (a) + (b) Ã© IGUAL a (c)."
       fimse
    fimse
 
-   // Exibindo o resultado para o usuário.
+   // Exibindo o resultado para o usuÃ¡rio.
 
    escreval("======================================")
-   escreval("             1ª QUESTÃO               ")
+   escreval("             1Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
