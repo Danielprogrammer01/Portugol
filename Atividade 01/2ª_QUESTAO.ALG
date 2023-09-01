@@ -11,11 +11,11 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             2ª QUESTÃO               ")
+   escreval("             2Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
 
-   // Solicidando dados ao usuário.
+   // Solicidando dados ao usuÃ¡rio.
 
    escreva("Digite seu nome: ")
    leia(nome)
@@ -40,17 +40,17 @@ Inicio
    limpatela
 
 
-   // Exibindo o resultado para o usuário.
+   // Exibindo o resultado para o usuÃ¡rio.
 
    escreval("======================================")
-   escreval("             2ª QUESTÃO               ")
+   escreval("             2Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
    escreval("")
    escreval("Nome: ", nome)
 
-   // Validando a exibição do sexo.
+   // Validando a exibiÃ§Ã£o do sexo.
 
    se (sexo = "M") ou (sexo = "m") entao
       sexo <- "Masculino"
@@ -62,7 +62,7 @@ Inicio
 
    escreval("Sexo: ", sexo)
 
-   // Validando a exibição do estado civil.
+   // Validando a exibiÃ§Ã£o do estado civil.
 
       //Caso sexo feminino
 
@@ -86,7 +86,7 @@ Inicio
 
    escreval("Estado civil: ", estadoCivil)
 
-   // Validando a exibição do tempo de casamento.
+   // Validando a exibiÃ§Ã£o do tempo de casamento.
 
    se (sexo = "Feminino") e (estadoCivil = "Casada") entao
       escreval("Tempo de casada: ", tempoCasamento, " anos")
