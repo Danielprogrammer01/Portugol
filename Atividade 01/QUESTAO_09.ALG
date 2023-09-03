@@ -11,47 +11,47 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             9ª QUESTÃO               ")
+   escreval("             9Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
 
    // Solicidando dados ao usuario.
 
-   escreva("Quanto é sua renda mensal? R$")
+   escreva("Quanto Ã© sua renda mensal? R$")
    leia (rendaMensal)
    escreval("")
 
-   escreva("Qual valor total do empréstimo a solicitar? R$")
+   escreva("Qual valor total do emprÃ©stimo a solicitar? R$")
    leia (valorTotal)
    escreval("")
 
-   escreva("E deseja pagar em quantas prestações? ")
+   escreva("E deseja pagar em quantas prestaÃ§Ãµes? ")
    leia (quantidadePrestacoes)
    escreval("")
    limpatela
 
-   // Calculando o valor das prestações.
+   // Calculando o valor das prestaÃ§Ãµes.
 
    valorPrestacao <- valorTotal / quantidadePrestacoes
 
-   // Exibindo o resultado para o usuário.
+   // Exibindo o resultado para o usuÃ¡rio.
 
    escreval("======================================")
-   escreval("             9ª QUESTÃO               ")
+   escreval("             9Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
    escreval("")
 
-   // Verificando se o empréstimo será concedido ou não.
+   // Verificando se o emprÃ©stimo serÃ¡ concedido ou nÃ£o.
 
    se (valorPrestacao <= (rendaMensal * 30/100)) e (valorTotal <= 10 * rendaMensal) entao
-      situacao <- "Sua solicitação foi APROVADA! O empréstimo poderá ser concedido."
+      situacao <- "Sua solicitaÃ§Ã£o foi APROVADA! O emprÃ©stimo poderÃ¡ ser concedido."
       escreval(situacao)
       escreval("")
-      escreval("Valor das prestações: R$", valorPrestacao:2:2)
+      escreval("Valor das prestaÃ§Ãµes: R$", valorPrestacao:2:2)
    senao
-      situacao <- "Sua solicitação foi NEGADA! O empréstimo não poderá ser concedido."
+      situacao <- "Sua solicitaÃ§Ã£o foi NEGADA! O emprÃ©stimo nÃ£o poderÃ¡ ser concedido."
       escreval(situacao)
    fimse
 
