@@ -11,7 +11,7 @@ Inicio
    repita
 
       escreval("======================================")
-      escreval("             8ª QUESTÃO               ")
+      escreval("             8Âª QUESTÃƒO               ")
       escreval("======================================")
       escreval("")
 
@@ -26,14 +26,14 @@ Inicio
          escreval("(3) - Vermelho")
          escreval("(4) - Verde")
          escreval("")
-         escreval("Digite o número da cor.")
+         escreval("Digite o nÃºmero da cor.")
          escreval("")
          leia(opcao)
          limpatela
 
       ate opcao <= 4
 
-      //  Definindo os preços de acordo a cor dos CD´s.
+      //  Definindo os preÃ§os de acordo a cor dos CDÂ´s.
 
       se opcao = 1 entao
          cor <- "AZUL"
@@ -56,10 +56,10 @@ Inicio
       fimse
 
 
-      // Exibindo o resultado para o usuário.
+      // Exibindo o resultado para o usuÃ¡rio.
 
       escreval("======================================")
-      escreval("             8ª QUESTÃO               ")
+      escreval("             8Âª QUESTÃƒO               ")
       escreval("======================================")
       escreval("")
       escreval("RESPOSTA:")
