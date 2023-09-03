@@ -15,21 +15,21 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             4ª QUESTÃO               ")
+   escreval("             4Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
 
    // Solicidando dados ao usuario.
 
-   escreval("Quantos quilos de morango você deseja?")
+   escreval("Quantos quilos de morango vocÃª deseja?")
    leia (pesoMorango)
    escreval("")
 
-   escreval("E quantos quilos de maça?")
+   escreval("E quantos quilos de maÃ§a?")
    leia (pesoMaca)
    limpatela
 
-   // Determinando o preço do quilo das frutas.
+   // Determinando o preÃ§o do quilo das frutas.
 
    // Morango.
 
@@ -39,7 +39,7 @@ Inicio
       precoPorQuiloMorango <- 2.50
    fimse
 
-   // Maça.
+   // MaÃ§a.
 
    se pesoMaca > 5 entao
       precoPorQuiloMaca <- 1.50
@@ -67,19 +67,19 @@ Inicio
       valorTotal <- valorMorango + valorMaca - desconto
    fimse
 
-   // Exibindo o resultado para o usuário.
+   // Exibindo o resultado para o usuÃ¡rio.
 
    escreval("======================================")
-   escreval("             4ª QUESTÃO               ")
+   escreval("             4Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
    escreval("")
    escreva("Quantidade de Morangos:", pesoMorango, "Kg")
-   escreval(" .......... Preço por Kg: R$", precoPorQuiloMorango:2:2)
+   escreval(" .......... PreÃ§o por Kg: R$", precoPorQuiloMorango:2:2)
    escreval("")
-   escreva("Quantidade de Maças:", pesoMaca, "Kg")
-   escreval(" ............. Preço por Kg: R$", precoPorQuiloMaca:2:2)
+   escreva("Quantidade de MaÃ§as:", pesoMaca, "Kg")
+   escreval(" ............. PreÃ§o por Kg: R$", precoPorQuiloMaca:2:2)
    escreval("")
    escreval("Desconto: R$", desconto:2:2)
    escreval("")
