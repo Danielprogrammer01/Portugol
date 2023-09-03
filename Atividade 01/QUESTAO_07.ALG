@@ -12,7 +12,7 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             7ª QUESTÃO               ")
+   escreval("             7Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
 
@@ -26,7 +26,7 @@ Inicio
    leia (quantidade)
    escreval("")
 
-   escreva("Preço Unitário: ")
+   escreva("PreÃ§o UnitÃ¡rio: ")
    leia (precoUnitario)
    escreval("")
    limpatela
@@ -51,10 +51,10 @@ Inicio
 
    totalAPagar <- valorTotal - desconto
 
-   // Exibindo o resultado para o usuário.
+   // Exibindo o resultado para o usuÃ¡rio.
 
    escreval("======================================")
-   escreval("             7ª QUESTÃO               ")
+   escreval("             7Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
