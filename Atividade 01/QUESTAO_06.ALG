@@ -11,13 +11,13 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             6ª QUESTÃO               ")
+   escreval("             6Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
 
    // Solicidando dados ao usuario.
 
-   escreval("MÉDIA ARITMÉTICA")
+   escreval("MÃ‰DIA ARITMÃ‰TICA")
    escreval("")
    escreva("Digite a primeira nota: ")
    leia (nota1)
@@ -27,33 +27,33 @@ Inicio
    leia (nota2)
    limpatela
 
-   // Calculando a média.
+   // Calculando a mÃ©dia.
 
    media <- (nota1 + nota2) / 2
 
    // Definindo a mensagem.
 
    se media >= 6 entao
-      comentario <- "Parabéns! Você está APROVADO"
+      comentario <- "ParabÃ©ns! VocÃª estÃ¡ APROVADO"
    senao
       se media < 4 entao
-         comentario <- "Você está REPROVADO!"
+         comentario <- "VocÃª estÃ¡ REPROVADO!"
       senao
-         comentario <- "Você está EM RECUPERAÇÃO!"
+         comentario <- "VocÃª estÃ¡ EM RECUPERAÃ‡ÃƒO!"
       fimse
    fimse
 
-   // Exibindo o resultado para o usuário.
+   // Exibindo o resultado para o usuÃ¡rio.
 
    escreval("======================================")
-   escreval("             6ª QUESTÃO               ")
+   escreval("             6Âª QUESTÃƒO               ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
    escreval("")
-   escreval("MÉDIA ARITMÉTICA")
+   escreval("MÃ‰DIA ARITMÃ‰TICA")
    escreval("")
-   escreval("Sua média: ", media:2:2, " pontos")
+   escreval("Sua mÃ©dia: ", media:2:2, " pontos")
    escreval("")
    escreval(comentario)
 
