@@ -9,13 +9,13 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             5™ QUEST√O               ")
+   escreval("             5¬™ QUEST√ÉO               ")
    escreval("======================================")
    escreval("")
 
    // Solicidando dados ao usuario.
 
-   escreval("OPERA«√O MATEM¡TICA: Divis„o")
+   escreval("OPERA√á√ÉO MATEM√ÅTICA: Divis√£o")
    escreval("")
    escreva("Escolha um valor: ")
    leia (a)
@@ -25,19 +25,19 @@ Inicio
    leia (b)
    limpatela
 
-   // Calculando a divis„o.
+   // Calculando a divis√£o.
 
    divisao <- a / b
 
-   // Exibindo o resultado para o usu·rio.
+   // Exibindo o resultado para o usu√°rio.
 
    escreval("======================================")
-   escreval("             5™ QUEST√O               ")
+   escreval("             5¬™ QUEST√ÉO               ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
    escreval("")
-   escreval("OPERA«√O MATEM¡TICA - Divis„o")
+   escreval("OPERA√á√ÉO MATEM√ÅTICA - Divis√£o")
    escreval("")
    escreval("Valor (a): ", a)
    escreval("")
