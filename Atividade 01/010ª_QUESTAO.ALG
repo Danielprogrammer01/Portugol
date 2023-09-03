@@ -12,25 +12,25 @@ Var
 Inicio
 
    escreval("======================================")
-   escreval("             10ª QUESTÃO              ")
+   escreval("             10Âª QUESTÃƒO              ")
    escreval("======================================")
    escreval("")
 
    // Solicidando dados ao usuario.
 
-   escreval("Escolha o combustível")
+   escreval("Escolha o combustÃ­vel")
    escreval("")
-   escreval("A - Álcool")
+   escreval("A - Ãlcool")
    escreval("G - Gasolina")
    escreval("")
-   escreva("Digite a letra do combustível: ")
+   escreva("Digite a letra do combustÃ­vel: ")
    leia (combustivel)
    escreval("")
 
-      // Determinando o preço de cada combustível.
+      // Determinando o preÃ§o de cada combustÃ­vel.
 
       se (combustivel = "A") ou (combustivel = "a") entao
-         combustivel <- "álcool"
+         combustivel <- "Ã¡lcool"
          preco <- 3.79
       senao
          se (combustivel = "G") ou (combustivel = "g") entao
@@ -50,10 +50,10 @@ Inicio
 
    // Calculando o desconto.
 
-   se (combustivel = "álcool") e (quantidade <= 25) entao
+   se (combustivel = "Ã¡lcool") e (quantidade <= 25) entao
       desconto <- valorTotal * (2/100)
    senao
-      se (combustivel = "álcool") e (quantidade > 25) entao
+      se (combustivel = "Ã¡lcool") e (quantidade > 25) entao
          desconto <- valorTotal * (4/100)
       senao
          se (combustivel = "gasolina") e (quantidade <= 25) entao
@@ -70,10 +70,10 @@ Inicio
 
    totalAPagar <- valorTotal - desconto
 
-   // Exibindo o resultado para o usuário.
+   // Exibindo o resultado para o usuÃ¡rio.
 
    escreval("======================================")
-   escreval("             10ª QUESTÃO              ")
+   escreval("             10Âª QUESTÃƒO              ")
    escreval("======================================")
    escreval("")
    escreval("RESPOSTA:")
