@@ -10,22 +10,22 @@ Var
 
 Inicio
 
-   //Solicitando dados ao usuário.
+   //Solicitando dados ao usuÃ¡rio.
 
-   escreva("Digite um número: ")
+   escreva("Digite um nÃºmero: ")
    leia(n1)
    escreval("")
-   escreva("Digite outro número: ")
+   escreva("Digite outro nÃºmero: ")
    leia(n2)
    escreval("")
-   escreval("Escolha uma operação matemática: ")
+   escreval("Escolha uma operaÃ§Ã£o matemÃ¡tica: ")
    escreval("")
-   escreval("( + ) Adição")
-   escreval("( - ) Substituição")
-   escreval("( * ) Multiplicação")
-   escreval("( / ) Divisão")
+   escreval("( + ) AdiÃ§Ã£o")
+   escreval("( - ) SubstituiÃ§Ã£o")
+   escreval("( * ) MultiplicaÃ§Ã£o")
+   escreval("( / ) DivisÃ£o")
    escreval("")
-   escreva("Digite o sinal da operação escolhida: ")
+   escreva("Digite o sinal da operaÃ§Ã£o escolhida: ")
    leia(operacao)
    escreval("")
    limpatela
@@ -42,19 +42,18 @@ Inicio
    caso "-"
 
       resultado <- n1 - n2
-      escreval("Resultado da subtração: ", resultado)
+      escreval("Resultado da subtraÃ§Ã£o: ", resultado)
 
    caso "*"
 
       resultado <- n1 * n2
-      escreval("Resultado da multiplicação: ", resultado)
+      escreval("Resultado da multiplicaÃ§Ã£o: ", resultado)
 
    caso "/"
 
       resultado <- n1 / n2
-      escreval("Resultado da divisão: ", resultado)
+      escreval("Resultado da divisÃ£o: ", resultado)
    fimescolha
-   escreval("")
 
 
 Fimalgoritmo
